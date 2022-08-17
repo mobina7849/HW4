@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    /* margin-top: 50px; */
+    background-color: #f4f5fa;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    background-color: #365898;
+}
+.head{
+    display: inline-block;
+    height: 75px;
+    width: 550px;
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    color:#fffdfb;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 20px 70px 5px;
+    box-sizing: border-box;
+}
+/* #head{ */
+    /* color: #fffdfb; */
+
+/* } */
+.loghead{
+    float: right;
+    /* width: 445px; */
+    width: 500px;
+    height: 75px;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+.content{
+    box-sizing:border-box;
+    float:left;
+    width:550px;
+    height: 425px;
+    /* border: 1px solid green; */
+    color: #2c4a5d;
+    font-weight: bolder;
+    padding: 20px 70px 5px;
+
+}
+.logContent{
+    float: right;
+    width: 500px;
+    height: 425px;
+    /* border: 1px solid pink; */
+}
+.Email{
+    /* margin-left: 10px; */
+    margin-top: 20px;
+    color: #fdfdff;
+    float: left;
+}
+.btn1{
+    background-color: #2984c2;
+    border: none;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: #fffdfb;
+    cursor: pointer;
+}
+h1{
+    margin-bottom: 0px;
+}
+.logContent input[type="text"]{
+    border: 1px solid #e0e1e2;
+    height: 30px;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #80817d;
+    font-size: larger;
+    
+    /* opacity: 1; */
+}
+select{
+    width: 60px;
+    height: 30px;
+    border-radius: 3px;
+}
+#why{
+    color: #989aec;
+    font-size: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+input[type="radio"]{
+    /* margin-top: 6px; */
+}
+.radio{
+    color: #101113;
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 24px;
+    height: 27px;
+    display: inline-block;
+}
+p{
+    font-size: 12px;
+}
+.btn2{
+    color: #e6f7dd;
+    background-color: #64954b;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
